@@ -12,8 +12,3 @@
   * `help` inline
   * lavoro con files
   * lettura/scrittura di files audio (`wavread`, `wavwrite`)
-* Introduzione alla materia
-  * Campionamento:
-    * esperimento con frequenze di campionamento crescente (1, 10, 100, 1000, 10000, 22050, 44100) (*undersampling*)
-  * Quantizzazione:
-    * esperimento con quantizzazione crescente (4, 8, 12, 16 bit)
