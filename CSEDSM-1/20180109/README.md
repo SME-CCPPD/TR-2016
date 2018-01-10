@@ -7,3 +7,5 @@
     * esperimento con frequenze di campionamento crescente (1, 10, 100, 1000, 10000, 22050, 44100) (*undersampling*)
   * Quantizzazione:
     * esperimento con quantizzazione crescente (4, 8, 12, 16 bit)
+
+![whiteboard 1](./CSEDSM_I_2010109.jpg)
