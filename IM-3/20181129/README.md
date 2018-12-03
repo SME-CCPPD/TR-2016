@@ -20,7 +20,8 @@
    * *dente di sega*
    * *quadra*
    * *triangolare*
-   * *treno d'impulsi*
-   con `cosinusoidi` anziché con `sinusoidi`
+   * *treno d'impulsi*<br />
+   in forma *cosinusoidale* (cioè simmetrica intorno allo zero) anziché
+   *sinusoidale* (cioè asimmetrica intorno allo zero)
 2. Realizzazione pratica dell'esempio della lavagna 2 con sinusoidi
    inviluppate
