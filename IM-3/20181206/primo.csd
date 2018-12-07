@@ -1,21 +1,3 @@
-# IM 3 - Lezione del 6 dicembre 2018
-
-## Argomenti
-
-* realizzazione della *nuvola* con `csound`
-  * introduzione a `csound`
-    * metafora `orchestra`/`partitura`
-    * `a-rate` e `k-rate`
-    * tipi di variabili: `a-`, `k-`, `i-`, `p-`, ecc.
-    * esempio n.1
-
-## Lavagne
-
-![whiteboard 1](./TR_III_IM_3_2018-12-06_11.07.30.jpg)
-
-## [Esempio `csound`](./primo.csd)
-
-```csound
 <CsoundSynthesizer>
 <CsOptions>
 -Wo ./test.wav
@@ -52,4 +34,20 @@ i1 0.5 2 -8 879
 
 </CsScore>
 </CsoundSynthesizer>
-```
+<bsbPanel>
+ <label>Widgets</label>
+ <objectName/>
+ <x>100</x>
+ <y>100</y>
+ <width>320</width>
+ <height>240</height>
+ <visible>true</visible>
+ <uuid/>
+ <bgcolor mode="nobackground">
+  <r>255</r>
+  <g>255</g>
+  <b>255</b>
+ </bgcolor>
+</bsbPanel>
+<bsbPresets>
+</bsbPresets>
