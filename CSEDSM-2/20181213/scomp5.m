@@ -1,28 +1,3 @@
-# CSEDSM 2 - Lezione del 6 dicembre 2018
-
-## Argomenti
-
-* Le trasformazioni tempo-frequenza:
-  * rumore della scomposizione:
-    * scomposizione di una finestra boxcar
-    * scomposizione di una finestra di Von Hann
-  * riduzione del rumore:
-    * finestra boxcar (rettangolare)
-    * finestra di Von Hann (hanning)
-  * finestre simmetriche vs. finestre asimmetriche
-  * zero-phase windowing
-  * realizzazione pratica del zero-phase windowing (inversione delle finestre)
-  * zero-padding dei bordi (interpolazione lineare dei punti)
-
-## Lavagne
-
-![whiteboard 1](./TR_III_CSEDSM_2_2018-12-13_11.08.20.jpg)
-
-## Codice `octave`
-
-[scomposizione e misurazione dello spettro con finestre boxcar e Von Hann](./scomp5.m)
-
-```matlab
 [y, fc] = audioread("test.wav");
 wsize = 8000;
 y=y(1:wsize)';%prende solo i primi 8000 campione e poi inverte tutto
@@ -45,12 +20,10 @@ subplot (2, 1, 1)
 plot (win, H)
 subplot (2, 1, 2)
 plot (win, hh)
-print("confronto_finestre.jpg", "-djpeg")
 figure (2)
 
 yh = y.*hh;    #segnale finestrato
 plot (t, yh)
-print("segnale_finestrato.jpg", "-djpeg")
 figure (3)
 
 
@@ -73,5 +46,3 @@ hfact = (wsize/sum(hh))/wsize;                     #scalare finestra hanning
 
 plot(F,20*log10(2* abs(DFD)*bfact), F, 20*log10(2* abs(dfdh)*hfact));
 axis([250 1000 -200 0]);
-print("confronto_finestre.jpg", "-djpeg")
-
