@@ -1,4 +1,4 @@
-# CSEDSM 2 - Lezione del 6 dicembre 2018
+# CSEDSM 2 - Lezione del 13 dicembre 2018
 
 ## Argomenti
 
@@ -45,12 +45,10 @@ subplot (2, 1, 1)
 plot (win, H)
 subplot (2, 1, 2)
 plot (win, hh)
-print("confronto_finestre.jpg", "-djpeg")
 figure (2)
 
 yh = y.*hh;    #segnale finestrato
 plot (t, yh)
-print("segnale_finestrato.jpg", "-djpeg")
 figure (3)
 
 
@@ -73,5 +71,12 @@ hfact = (wsize/sum(hh))/wsize;                     #scalare finestra hanning
 
 plot(F,20*log10(2* abs(DFD)*bfact), F, 20*log10(2* abs(dfdh)*hfact));
 axis([250 1000 -200 0]);
-print("confronto_finestre.jpg", "-djpeg")
+```
 
+Questo codice produce i seguenti grafici:
+
+![Confronto tra i vari tipi di finestra](./confronto_finestre.jpg)
+
+![Segnale rimodulato con la finestra](./segnale_finestrato.jpg)
+
+![Confronto tra gli spettri delle varie finestre](./confronto_spettri.jpg)
