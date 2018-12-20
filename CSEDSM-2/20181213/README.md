@@ -75,8 +75,14 @@ axis([250 1000 -200 0]);
 
 Questo codice produce i seguenti grafici:
 
-![Confronto tra i vari tipi di finestra](./confronto_finestre.jpg)
+![Confronto tra finestre di von Hann generate e già fatte](./confronto_finestre.jpg)
+
+Confronto tra la finestra di von Hann generata da noi e quella già inclusa in `octave`.
 
 ![Segnale rimodulato con la finestra](./segnale_finestrato.jpg)
 
+Segnale rimodulato con la finestra di von Hann
+
 ![Confronto tra gli spettri delle varie finestre](./confronto_spettri.jpg)
+
+Confronto tra lo spettro del segnale modulato con finestre *boxcar* e con finestra di *von Hann*
