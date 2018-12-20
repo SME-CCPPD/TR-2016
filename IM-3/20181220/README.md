@@ -3,7 +3,8 @@
 ## Argomenti
 
 * realizzazione della *nuvola* con `csound`
-  * realizzazione delle funzioni polinomiali
+  * realizzazione delle funzioni polinomiali per il contorno
+* *scalamento* della nuvola a *composizione di nuvole*
 
 ## Compiti per le vacanze
 
