@@ -3,6 +3,7 @@ $:<< "."			#Formula maggica: aggiungi all'array delle posizioni dei file la dire
 require "tables"	#Richiamo il file scritto con Octave.
 
 #Definiamo una funzione di lookup.
+# FIXME: questa funzione non è corretta
 def lookup(time)	#Restituisce le frequenze relative a time.
 	t = ((time*100).round/100.0) - T[0]	#time viene arrotondato al centesimo.
 	F[t*100]		#Valore restituito dalla funzione.
