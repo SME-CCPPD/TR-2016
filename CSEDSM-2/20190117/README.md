@@ -9,10 +9,10 @@
 
 ## Lavagne
 
-![whiteboard 1](./TR_III_CSEDSM_II_2019-01-17 11.49.47_1.jpg)
+![whiteboard 1](./TR_III_CSEDSM_II_2019-01-17_11.49.47_1.jpg)
 
 
-![whiteboard 2](./TR_III_CSEDSM_2_2019-01-17 12.49.07_1.jpg)
+![whiteboard 2](./TR_III_CSEDSM_2_2019-01-17_12.49.07_1.jpg)
 
 ## Codice `octave` (funzione `intparab`)
 
