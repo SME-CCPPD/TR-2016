@@ -8,7 +8,7 @@
 
 ## Lavagne
 
-![whiteboard 1](./TR_III_IM_3_2019-01-17 11.21.53_1.jpg)
+![whiteboard 1](./TR_III_IM_3_2019-01-17_11.21.53_1.jpg)
 
 ## Codice `octave`
 
