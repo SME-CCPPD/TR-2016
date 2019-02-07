@@ -1,9 +1,9 @@
 [y, fc] = audioread("test.wav");
-wsize = 8000;
-y=y(1:wsize)';%prende solo i primi 8000 campione e poi inverte tutto
+wsize = 8000; %window size
+y=y(1:wsize)';%y:primi 8000 campioni,invertiti
 
 passo= 1/fc;
-dur=length(y)/fc;
+dur=length(y)*passo;
 t=[0:passo:dur-passo];
 %y = 0.5*cos(440*2*pi*t(1:wsize));
 binsize= 10; %passo di campionamento delle frequenze

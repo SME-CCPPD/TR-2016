@@ -1,4 +1,4 @@
-# IM 3 - Lezione del 17 gennaio 2019
+# IM 3 - Lezione del 7 feb 2019
 
 ## Argomenti
 
