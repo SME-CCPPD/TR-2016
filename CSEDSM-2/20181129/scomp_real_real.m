@@ -7,7 +7,7 @@ sinc = 1/fc;
 dur = length(y)/fc;
 t = [0:sinc:dur-sinc];
 
-binsize = 10;   %passo di campionamento delle frequenze.
+binsize = 10;   
 F = [0:binsize:fc-binsize];
 
 
