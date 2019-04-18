@@ -37,9 +37,9 @@ f = [0:binsize:fs-binsize]; %Asse delle frequenze.
 yplot = my_freqs;              % make a copy of the data specifically for plotting
 yplot(yplot==0)=nan;  % replace 0 elements with NaN
 
-%plot (t, yplot, "*", "markersize", 5);
+plot (t, yplot, "*", "markersize", 5);
 %
 %graphics_toolkit("gnuplot");
 %imagesc(t, flipud(yplot), [threshold, 0])
 
-mesh(t, my_freqs(:,2), (my_mags-threshold))
+%mesh(t, my_freqs(:,2), (my_mags-threshold))

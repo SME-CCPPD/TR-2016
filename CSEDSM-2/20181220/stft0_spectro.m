@@ -3,7 +3,7 @@ close all
 [y, fs]=audioread("webern-op1-theme.wav");
 dur=2;
 y=y(1:fs*2,1);
-winsize=2^12; %4096
+winsize=4096; %4096
 binsize=fs/winsize;
 overlap=4;
 hopsize=winsize/overlap;
